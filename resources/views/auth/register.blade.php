@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+{!! csrf_field() !!}
+
+
 @section('content')
 <div class="container">
     <div class="row">
